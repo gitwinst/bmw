@@ -1,0 +1,574 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+li {
+	list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	line-height: 1.4;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	text-decoration : none;
+    outline: 0;
+    color: #B64926;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.linkColor {
+	color: #FFB03B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\e603";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: IcoMoon;
+    font-size: 2em;
+}
+
+hr.graduate:after {
+	content: "\f19d"
+}
+
+hr.lightning:after {
+	content: "\e605";
+}
+
+hr.books:after {
+	content: "\e607";
+}
+
+hr.bubbles:after {
+	content: "\e609";
+}
+
+hr.library:after {
+	content: "\e600";
+}
+
+hr.diamond:after {
+	content: "\e608";
+}
+
+hr.pencil:after {
+	content: "\f040";
+}
+
+.icon-home:before {
+	content: "\e606";
+}
+
+hr.star-light {
+    border-color: #fffdf0;
+}
+
+hr.star-light:after {
+    color: #fffdf0;
+    background-color: #468966;
+}
+
+hr.star-primary {
+    border-color: #153c50;
+}
+
+hr.star-primary:after {
+    color: #153c50;
+    background-color: #fffdf0;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    color: #153c50;
+    background: #fffdf0;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
+.navbar-custom {
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	text-transform: uppercase;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #153c50;
+}
+.navbar-custom .navbar-brand {
+	font-weight: 700;
+	color: #FFB03B;
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #fffdf0;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+	outline: 0;
+}
+.navbar-custom a {
+	color: #fffdf0;
+}
+.navbar-custom .nav li.active {
+	outline: none;
+	background-color: rgba(255, 255, 255, .3);
+}
+.navbar-custom .nav li a {
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+	outline: 0;
+	background-color: rgba(255, 255, 255, .3);
+}
+
+@media(min-width:768px) {
+	.navbar {
+		padding: 20px 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-bottom: 0;
+		background: 0 0;
+		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		transition: background .5s ease-in-out, padding .5s ease-in-out;
+	}
+	.top-nav-collapse {
+		padding: 0;
+		background-color: #153c50;
+	}
+	
+	.navbar-custom.top-nav-collapse {
+		border-bottom: 1px solid rgba(255, 255, 255, .3);
+	}
+}
+
+@media(min-width:1200px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		letter-spacing: 1px;
+		background: 0 0;
+		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		transition: background .5s ease-in-out, padding .5s ease-in-out;
+	}
+	.top-nav-collapse {
+		padding: 0;
+		background-color: #153c50;
+	}
+	.navbar-custom.top-nav-collapse {
+		border-bottom: 1px solid rgba(255, 255, 255, .3);
+	}
+}
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.success {
+    color: #fffdf0;
+    background: #468966;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+}
+
+.col-sm-12 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-md-pull-6 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #468966;
+    background: #fff;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #D3D3D3;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #468966;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #D3D3D3;
+}
+
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #153c50;
+	color: #FFFDF0;
+}
+
+footer .footer-above h4 {
+	color: #FFF0A5;
+}
+
+footer .footer-col {
+    margin-bottom: 20px;
+}
+
+footer .footer-below {
+    padding: 10px 0;
+    background-color: #153C50;
+	color: #FFB03B;
+	font-size: 12px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {	
+    outline: 0;
+}
+
+/* Ease-in-out Contact form's Send button */
+.container .btn-success {
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+/* Reduce font size of warning message in Contact form - larger font created visual confusion */
+#contactForm > div > div > p {
+	font-size: 16px;
+}
+
+/* Gives sandwich menu bar in mobile layout color */
+.icon-bar {
+	background-color: #fffdf0;
+}
+
+/* Here begins extra styling for the CV page */
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	text-align: center;
+	color: #fffdf0;
+	background: url(../img/cell.jpg) no-repeat bottom center fixed;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+	font-size: 40px;
+}
+.intro .intro-body .intro-text {
+	font-size: 18px;
+}
+@media(min-width:767px) {
+	.intro {
+		height: 100%;
+		padding: 0;
+	}
+	.intro .intro-body .brand-heading {
+		font-size: 120px;
+	}
+	.intro .intro-body .intro-text {
+		font-size: 25px;
+	}
+}
+
+.icon {
+	font-size: 2em;
+}
+
+#skills,
+#proXP1,
+#education,
+#contact {
+	background-color: #fffdf0;
+}
+
+/* Gives darker sections lighter color headings */
+.darkHead h1,
+.darkHead h2,
+.darkHead h3,
+.darkHead h4,
+.darkHead h5,
+.darkHead h6 {
+	color: #FFF0A5;
+}
+
+/* Pulsing arrows */
+.btn-circle {
+	width: 70px;
+	height: 70px;
+	margin-top: 25px;
+	padding: 7px 16px;
+	border: 2px solid #fffdf0;
+	border-radius: 35px;
+	font-size: 40px;
+	color: #fffdf0;
+	background: 0 0;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+	outline: 0;
+	color: #fffdf0;
+	background: rgba(255, 255, 255, .1);
+}
+.btn-circle i.animated {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+@-webkit-keyframes pulse {
+	0 {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@-moz-keyframes pulse {
+	0 {
+		-moz-transform: scale(1);
+		transform: scale(1);
+	}
+	50% {
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	100% {
+		-moz-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+/* Gives the Blake in Hi I'm Blake a splash of red */
+.bamColor {
+	color: #B64926;
+}
+
+/* This adjusts the navbar between the given ranges so that it doesn't go bonkers when resizing */
+@media(max-width:993px) and (min-width:768px) {
+	.noDisplay {
+		display: none;
+	}
+	#page-top > nav > div {
+	width: 100%;
+	}
+
+	#page-top > nav > div li {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+}
+
+/* Makes text smaller in footer */
+.smallText {
+	font-size: 16px;
+}
