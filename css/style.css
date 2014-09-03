@@ -4,6 +4,29 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#thanks {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFDF0;
+}
+
+div.container4 {
+    height: 50%;
+    position: relative }
+div.container4 p {
+	font-size: 10em;
+	color: #468966;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#thanks h1 {
+	text-align: center;
+}
+
 li {
 	list-style: none;
 }
