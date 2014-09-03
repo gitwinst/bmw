@@ -437,17 +437,12 @@ footer .footer-below {
 	padding: 100px 0;
 	text-align: center;
 	color: #fffdf0;
-	background: url(../img/cell.jpg) no-repeat bottom center fixed;
-	
-}
-.intro {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom center;
-
-    @media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
+	background: url(../img/cell.jpg) no-repeat bottom center scroll;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 .intro .intro-body {
 	display: table-cell;
@@ -465,7 +460,7 @@ footer .footer-below {
 		padding: 0;
 	}
 	.intro .intro-body .brand-heading {
-		font-size: 120px;
+		font-size: 100px;
 	}
 	.intro .intro-body .intro-text {
 		font-size: 25px;
