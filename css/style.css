@@ -4,27 +4,28 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.time {
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+
 #thanks {
 	width: 100%;
 	height: 100%;
 	background-color: #FFFDF0;
+	color: #468966;;
 }
 
 div.container4 {
     height: 50%;
-    position: relative }
+}
 div.container4 p {
-	font-size: 10em;
-	color: #468966;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
-
-#thanks h1 {
 	text-align: center;
+}
+div.container4 p.big {
+	font-size: 10em;
 }
 
 li {
@@ -35,7 +36,7 @@ body {
     overflow-x: hidden;
 	width: 100%;
 	height: 100%;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 
 html {
@@ -460,13 +461,22 @@ footer .footer-below {
 	padding: 100px 0;
 	text-align: center;
 	color: #fffdf0;
-	background: url(../img/cell.jpg) no-repeat bottom center scroll;
+	background: url(../img/cell.jpg) no-repeat bottom center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+@media(max-width:1024px) {
+	.intro {
+		background-attachment: scroll;
+	}
+	.noMove {
+		
+	}
+}
+
 .intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
