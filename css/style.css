@@ -9,6 +9,11 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.resetButtonStyle {
+    background-color : transparent;
+    border : 0;
+}
+
 .time {
 	font-weight: 300;
 	font-style: italic;
@@ -20,6 +25,10 @@
 	height: 100%;
 	background-color: #FFFDF0;
 	color: #468966;;
+}
+
+.green {
+	color: #FFB03B;
 }
 
 div.container4 {
